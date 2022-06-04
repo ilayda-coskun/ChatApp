@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Chat App"
+        android:textColor="@color/ToolbarTextColor"
+        android:textSize="27sp"
+        android:textStyle="bold"></TextView>
+
+    <RelativeLayout
+        android:id="@+id/bar_layout_relative_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/bar_layout_img_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_notification"></ImageView>
+
+        <TextView
+            android:id="@+id/bar_layout_txt_notificationNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="1"
+            android:textColor="@color/ToolbarTextColor"
+            android:textSize="10sp"></TextView>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

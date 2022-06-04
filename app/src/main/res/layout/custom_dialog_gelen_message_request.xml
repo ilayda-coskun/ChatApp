@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/custom_dialog_messageRequests_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Chat App"
+            android:textColor="@color/ToolbarTextColor"
+            android:textSize="27sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/custom_dialog_messageRequests_img_close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_close"
+            app:tint="#037EB6"></ImageView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/custom_dialog_messageRequests_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_dialog_messageRequests_toolbar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="İSTEKLER"
+            android:textColor="@color/IsteklerColor"
+            android:textSize="13sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/custom_dialog_messageRequests_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/custom_dialog_messageRequests_linear"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"></androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>
+
+<!-- <ImageView
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:background="#037EB6"></ImageView> -->

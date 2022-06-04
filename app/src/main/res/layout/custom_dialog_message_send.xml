@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/custom_dialog_message_send_bg">
+
+            <EditText
+                android:id="@+id/customDialog_messageSend_edit_message"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/custom_dialog_message_send_mesaj_bg"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:padding="5dp"></EditText>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/customDialog_messageSend_linear_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="120dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/customDialog_messageSend_img_iptal"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:padding="15dp"
+                android:src="@drawable/ic_close"
+                app:tint="#037EB6"></ImageView>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_message"
+                    app:tint="#037EB6"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gönder"
+                    android:textColor="#037EB6"
+                    android:textSize="13sp"></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/customDialog_messageSend_img_userProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_color="@color/MessageSendColor"
+        app:civ_border_width="3dp">
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_below="@id/customDialog_messageSend_img_userProfile"
+        android:id="@+id/custom_dialog_messageSend_txt_userName"
+        android:textColor="@color/MessageSendTextColor">
+    </TextView>
+
+</RelativeLayout>

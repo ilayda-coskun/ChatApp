@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420249208424",
+    "project_id": "chatapp-956eb",
+    "storage_bucket": "chatapp-956eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420249208424:android:90b507a582a366396bdddd",
+        "android_client_info": {
+          "package_name": "com.nexis.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420249208424-o9hnbp8un076aarhocubvh825uf2n67a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD41VvnEFmi0xA2wk1rGvQYwrWD5-bD0v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420249208424-o9hnbp8un076aarhocubvh825uf2n67a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

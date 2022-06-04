@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottom_nav_ic_users"
+        android:title="Kullanıcılar"
+        android:icon="@drawable/ic_users">
+    </item>
+
+    <item android:id="@+id/bottom_nav_ic_chat"
+        android:title="Mesajlar"
+        android:icon="@drawable/ic_chat">
+    </item>
+
+    <item android:id="@+id/bottom_nav_ic_profile"
+        android:title="Profil"
+        android:icon="@drawable/ic_settings_profile">
+    </item>
+</menu>

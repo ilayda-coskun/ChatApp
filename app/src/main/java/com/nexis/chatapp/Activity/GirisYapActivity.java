@@ -57,10 +57,10 @@ public class GirisYapActivity extends AppCompatActivity {
 
         init();
 
-        if (mUser != null) {
+        /*if (mUser != null) {
             finish();
             startActivity(new Intent(GirisYapActivity.this, MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-        }
+        }*/
     }
 
     public void btnGirisYap(View view) {

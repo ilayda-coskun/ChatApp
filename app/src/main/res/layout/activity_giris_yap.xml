@@ -93,9 +93,10 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
         android:layout_centerInParent="true"
         android:background="@drawable/giris_yap_kayit_ol_button"
         android:onClick="btnGitKayitOl">
